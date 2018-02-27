@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.logo-img {
+    max-height: 74px!important;
+    padding: 15px 0!important;
+}
+.NavLink {
+
+}
+/* class="blue-text text-darken-2" */

@@ -1,0 +1,32 @@
+.page-footer {
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+}
+.slider {
+  width: auto;
+
+}
+
+.pageOne{
+  margin-top: 0px;
+}
+
+.avatar{
+  padding: 15px 0!important;
+}
+
+.websprite{
+  padding: 20px;
+}
+
+.pageOne{
+  padding-bottom: 0px;
+}
