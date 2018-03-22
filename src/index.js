@@ -18,7 +18,7 @@ import avatar from './img/avatar.png';
 ReactDOM.render(
   <Router>
     <div>
-      <Navbar class="black">
+      <Navbar class="grey darken-3">
         <NavItem><img class="logo-img" src={avatar}alt="cakesorceress"></img></NavItem>
         <NavItem class="right"><NavLink to='/contact'class="lime-text text-darken-1"><Icon right>email</Icon></NavLink>
         </NavItem>

@@ -16,6 +16,8 @@ import wacom from './img/desktop-copy.png';
 import team from './img/team.png';
 import avatar from './img/avatar.png';
 import sprite from './img/cake-sprite-animation.gif'
+import banner from './img/banner.png';
+import footer from './img/footer.png';
 class App extends Component {
   render() {
     return (<body class="mass">
@@ -25,7 +27,7 @@ class App extends Component {
           <div class="container">
             <div class="row">
               <div class="col s12">
-                <MediaBox class="avatar valign-center" src={avatar} caption="Cake Sorceress Game House" width="150"/>
+                <MediaBox class="banner valign-center responsive-img" src={banner} caption="Cake Sorceress Game House" width="1050"/>
                 <Slider class="valign-center">
                   <Slide src={frontDoor} alt="spookyDoor" title="The Reclusion Club Game">
                     <span>Coming Soon!</span>
@@ -37,18 +39,18 @@ class App extends Component {
                     Get to Know the Developers
                   </Slide>
                 </Slider>
-                        <img class="websprite left" src={sprite}></img>
+                        <img class="websprite left" src={sprite} alt="sorceress shooting"></img>
               </div>
             </div>
           </div>
         </div>
 
-        <footer class="page-footer lime darken-3">
+        <footer class="page-footer grey darken-3">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">Rows and columns here to organize footer content.</p>
+                <h5 class="white-text">First Launch Coming Soon!</h5>
+                <p class="grey-text text-lighten-4">More on <a href="http://thereclusion.club/" target="blank">The Reclusion Club</a> Game.</p>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Follow Us</h5>
@@ -66,7 +68,7 @@ class App extends Component {
               </div>
             </div>
           </div>
-          <div class="footer-copyright lime darken-4">
+          <div class="footer-copyright lime darken-1">
             <div class="container">
               © 2018 Copyright CakeSorceress
               <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
